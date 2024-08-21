@@ -1,0 +1,22 @@
+Index: src/com/whu/lc6.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.whu;\r\n\r\npublic class lc6 {\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/whu/lc6.java b/src/com/whu/lc6.java
+--- a/src/com/whu/lc6.java	(revision 2ba3a93a839a33d3ca7f2a09e3ad99e8c08f950f)
++++ b/src/com/whu/lc6.java	(date 1724225997995)
+@@ -1,4 +1,11 @@
+ package com.whu;
+ 
+ public class lc6 {
++    public static void main(String[] args) {
++
++    }
++
++    private static class Solution {
++        
++    }
+ }
