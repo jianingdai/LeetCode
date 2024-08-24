@@ -1,8 +1,7 @@
-package com.whu;
+package com.whu.LC1_10;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 
 public class lc4 {
     //            返回nums1和nums2合并后的数组中的中位数

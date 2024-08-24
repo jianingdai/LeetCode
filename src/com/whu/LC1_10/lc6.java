@@ -1,9 +1,8 @@
-package com.whu;
+package com.whu.LC1_10;
 
 public class lc6 {
     //    力扣第6题
     public static void main(String[] args) {
-//test0
     }
 
     private static class Solution {

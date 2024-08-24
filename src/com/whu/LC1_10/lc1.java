@@ -1,8 +1,7 @@
-package com.whu;
+package com.whu.LC1_10;
 
 import java.util.Arrays;
 import java.util.HashMap;
-import java.util.HashSet;
 
 /*
 https://leetcode.cn/problems/two-sum/description/

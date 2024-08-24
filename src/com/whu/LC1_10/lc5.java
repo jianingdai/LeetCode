@@ -1,6 +1,4 @@
-package com.whu;
-
-import com.sun.management.GarbageCollectionNotificationInfo;
+package com.whu.LC1_10;
 
 public class lc5 {
     public static void main(String[] args) {

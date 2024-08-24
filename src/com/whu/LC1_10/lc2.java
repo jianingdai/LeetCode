@@ -1,7 +1,4 @@
-package com.whu;
-
-import java.nio.charset.Charset;
-import java.time.temporal.Temporal;
+package com.whu.LC1_10;
 
 public class lc2 {
 
