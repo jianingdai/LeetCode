@@ -1,6 +1,5 @@
-package com.whu;
+package com.whu.LC11_20;
 
-import javax.xml.transform.Result;
 import java.util.HashMap;
 
 public class lc12 {

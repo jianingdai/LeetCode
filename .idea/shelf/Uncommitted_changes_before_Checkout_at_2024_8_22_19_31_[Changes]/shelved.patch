@@ -1,0 +1,638 @@
+Index: src/com/whu/lc6.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.whu;\r\n\r\npublic class lc6 {\r\n//    力扣第6题\r\n    public static void main(String[] args) {\r\n\r\n    }\r\n\r\n    private static class Solution {\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/whu/lc6.java b/src/com/whu/lc6.java
+--- a/src/com/whu/lc6.java	(revision 6c3ae02663e64931eae7db97b438e24900b4291f)
++++ b/src/com/whu/lc6.java	(date 1724326252573)
+@@ -1,9 +1,9 @@
+ package com.whu;
+ 
+ public class lc6 {
+-//    力扣第6题
++    //    力扣第6题
+     public static void main(String[] args) {
+-
++//test01
+     }
+ 
+     private static class Solution {
+Index: src/com/whu/lc8.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/whu/lc8.java b/src/com/whu/lc8.java
+new file mode 100644
+--- /dev/null	(date 1724326252641)
++++ b/src/com/whu/lc8.java	(date 1724326252641)
+@@ -0,0 +1,97 @@
++package com.whu;
++
++/*
++请你来实现一个myAtoi(string s)函数，使其能将字符串转换成一个 32 位有符号整数。
++
++函数myAtoi(string s) 的算法如下：
++
++空格：读入字符串并丢弃无用的前导空格（' '）
++符号：检查下一个字符（假设还未到字符末尾）为'-' 还是 '+'。如果两者都不存在，则假定结果为正。
++转换：通过跳过前置零来读取该整数，直到遇到非数字字符或到达字符串的结尾。如果没有读取数字，则结果为0。
++舍入：如果整数数超过 32 位有符号整数范围 [−231, 231− 1] ，需要截断这个整数，使其保持在这个范围内。具体来说，小于 −231 的整数应该被舍入为 −231 ，大于 231− 1 的整数应该被舍入为 231− 1 。
++返回整数作为最终结果。
++* */
++public class lc8 {
++    public static void main(String[] args) {
++        Solution solution = new Solution();
++        int i = solution.myAtoi("20000000000000000000");
++        System.out.println(i);
++    }
++
++    private static class Solution {
++        public int myAtoi(String s) {
++            int ans = 0;
++            StringBuilder sb = new StringBuilder();
++            boolean negative = false;
++            char[] chars = s.toCharArray();
++//            全局指针
++            int i = 0;
++            for (; i < chars.length; i++) {
++//                跳过前导空格
++                if (chars[i] == ' ') continue;
++                break;
++            }
++//           先检查指针位置
++            if (i >= chars.length) {
++                return ans;
++            }
++//            检查符号
++            if (chars[i] == '-') {
++//                    记录负数标记
++                negative = true;
++                i++;
++            } else if (chars[i] == '+') {
++                i++;
++            }
++            for (; i < chars.length; i++) {
++                if (!this.isNum(chars[i])) {
++//                    如果遇到了非数字就跳出返回
++                    break;
++                }
++//                检查前导零
++                if (chars[i] != '0') {
++                    break;
++                }
++            }
++            for (; i < chars.length; i++) {
++                if (!this.isNum(chars[i])) {
++                    break;
++                }
++                sb.append(chars[i]);
++            }
++            if (sb.isEmpty()) {
++                return ans;
++            }
++            ans = getAnInt(sb, negative);
++            return ans;
++        }
++
++        private static int getAnInt(StringBuilder sb, boolean negative) {
++            int ans;
++            long num = 0;
++            try {
++                num = Integer.parseInt(sb.toString());
++            } catch (NumberFormatException e) {
++                if (negative) {
++                    ans = 0x80000000;
++                } else {
++                    ans = 0x7fffffff;
++                }
++                return ans;
++            }
++            if (negative) {
++                num = -num;
++            }
++            ans = (int) num;
++
++            return ans;
++        }
++
++        private boolean isNum(char c) {
++            if (c >= '0' && c <= '9') {
++                return true;
++            }
++            return false;
++        }
++    }
++}
+Index: src/com/whu/lc7.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/whu/lc7.java b/src/com/whu/lc7.java
+new file mode 100644
+--- /dev/null	(date 1724326252656)
++++ b/src/com/whu/lc7.java	(date 1724326252656)
+@@ -0,0 +1,42 @@
++package com.whu;
++
++/*
++给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果。
++
++如果反转后整数超过 32 位的有符号整数的范围[−2^31, 2^31− 1] ，就返回 0。
++
++假设环境不允许存储 64 位整数（有符号或无符号）。
++* */
++public class lc7 {
++    public static void main(String[] args) {
++        int x = 1_534_236_469;
++        System.out.println(Solution.reverse(x));
++    }
++
++    private static class Solution {
++        public static int reverse(int x) {
++            long ans = 0L;
++            if (x == Integer.MIN_VALUE || x == Integer.MAX_VALUE) {
++                return 0;
++            }
++            boolean negative = false;
++            if (x < 0) {
++                x = Math.abs(x);
++                negative = true;
++            }
++            String str = Integer.toString(x);
++            StringBuilder sb = new StringBuilder();
++            sb.append(str);
++            sb.reverse();
++
++            if (negative) {
++                sb.insert(0, '-');
++            }
++            ans = Long.parseLong(sb.toString());
++            if (ans > Integer.MAX_VALUE || ans < Integer.MIN_VALUE) {
++                return 0;
++            }
++            return (int) ans;
++        }
++    }
++}
+Index: src/com/whu/lc9.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/whu/lc9.java b/src/com/whu/lc9.java
+new file mode 100644
+--- /dev/null	(date 1724326252625)
++++ b/src/com/whu/lc9.java	(date 1724326252625)
+@@ -0,0 +1,31 @@
++package com.whu;
++
++/*
++给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
++回文数
++是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
++例如，121 是回文，而 123 不是。
++* */
++public class lc9 {
++    public static void main(String[] args) {
++        Solution solution = new Solution();
++        System.out.println(solution.isPalindrome(876));
++    }
++
++    private static class Solution {
++        public boolean isPalindrome(int x) {
++/*            String xStr = Integer.toString(x);
++            StringBuilder sb = new StringBuilder(xStr);
++            sb.reverse();
++            return sb.toString().equals(xStr);*/
++
++            String xStr = String.valueOf(x);
++            for (int i = 0; i < xStr.length() / 2; i++) {
++                if (xStr.charAt(i) != xStr.charAt(xStr.length() - i - 1)) {
++                    return false;
++                }
++            }
++            return true;
++        }
++    }
++}
+Index: .idea/uiDesigner.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+new file mode 100644
+--- /dev/null	(date 1724326252635)
++++ b/.idea/uiDesigner.xml	(date 1724326252635)
+@@ -0,0 +1,124 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Palette2">
++    <group name="Swing">
++      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
++      </item>
++      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.svg" removable="false" auto-create-binding="false" can-attach-label="true">
++        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
++        <initial-values>
++          <property name="text" value="Button" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="RadioButton" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="CheckBox" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
++        <initial-values>
++          <property name="text" value="Label" />
++        </initial-values>
++      </item>
++      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
++          <preferred-size width="150" height="-1" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
++          <preferred-size width="150" height="50" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
++          <preferred-size width="200" height="200" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.svg" removable="false" auto-create-binding="true" can-attach-label="true">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
++      </item>
++      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
++      </item>
++      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
++          <preferred-size width="-1" height="20" />
++        </default-constraints>
++      </item>
++      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.svg" removable="false" auto-create-binding="false" can-attach-label="false">
++        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
++      </item>
++      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.svg" removable="false" auto-create-binding="true" can-attach-label="false">
++        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
++      </item>
++    </group>
++  </component>
++</project>
+\ No newline at end of file
+Index: src/com/whu/lc10.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/whu/lc10.java b/src/com/whu/lc10.java
+new file mode 100644
+--- /dev/null	(date 1724326252662)
++++ b/src/com/whu/lc10.java	(date 1724326252662)
+@@ -0,0 +1,51 @@
++package com.whu;
++
++import com.sun.source.tree.IfTree;
++
++import java.util.zip.DeflaterInputStream;
++
++/*
++给你一个字符串s和一个字符规律p，请你来实现一个支持 '.'和'*'的正则表达式匹配。
++'.' 匹配任意单个字符
++'*' 匹配零个或多个前面的那一个元素
++所谓匹配，是要涵盖整个字符串s 的，而不是部分字符串。
++* */
++public class lc10 {
++    public static void main(String[] args) {
++        Solution solution = new Solution();
++        System.out.println(solution.isMatch("aa", ".*"));
++    }
++
++    private static class Solution {
++        public boolean isMatch(String s, String p) {
++            int m = s.length();
++            int n = p.length();
++
++//            初始化
++            boolean[][] dp = new boolean[m + 1][n + 1];
++            dp[0][0] = true;
++
++            for (int i = 1; i <= n; i++) {
++                if (p.charAt(i - 1) == '*') {
++//                    while i-1!=0,i>1->i>=2
++//                    i-2>=0
++                    dp[0][i] = dp[0][i - 2];
++                }
++            }
++            for (int i = 1; i <= m; i++) {
++                for (int j = 1; j <= n; j++) {
++                    if (p.charAt(j - 1) == '.' || p.charAt(j - 1) == s.charAt(i - 1)) {
++                        dp[i][j] = dp[i - 1][j - 1];
++                    } else if (p.charAt(j - 1) == '*') {
++                        if (s.charAt(i - 1) != p.charAt(j - 2) && p.charAt(j - 2) != '.') {
++                            dp[i][j] = dp[i][j - 2];
++                        } else {
++                            dp[i][j] = dp[i][j - 2] || dp[i - 1][j];
++                        }
++                    }
++                }
++            }
++            return dp[m][n];
++        }
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8b07cb35-8dd1-44d8-8dda-0f91b81465a6\" name=\"Changes\" comment=\"lc刷题\">\r\n      <change beforePath=\"$PROJECT_DIR$/src/com/whu/lc6.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/com/whu/lc6.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RESET_MODE\" value=\"SOFT\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 7\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2ksxDucWng7IeqpT11P9tK15IJ4\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"dev\",\r\n    \"kotlin-language-version-configured\": \"true\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"project.structure.last.edited\": \"Modules\",\r\n    \"project.structure.proportion\": \"0.0\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"terminal\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File\": [\r\n      \"PLAIN_TEXT\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387\" />\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\86131\\AppData\\Roaming\\Subversion</configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8b07cb35-8dd1-44d8-8dda-0f91b81465a6\" name=\"Changes\" comment=\"\" />\r\n      <created>1724085969817</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1724085969817</updated>\r\n      <workItem from=\"1724085970877\" duration=\"333000\" />\r\n      <workItem from=\"1724219715162\" duration=\"66000\" />\r\n      <workItem from=\"1724219822661\" duration=\"1000\" />\r\n      <workItem from=\"1724219830706\" duration=\"5663000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724219859568</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724219859568</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"lc刷题\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724219981991</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724219981991</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"lc刷题\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1724226166511</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1724226166511</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"4\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TerminalProjectNonSharedOptionsProvider\">\r\n    <envs>\r\n      <env key=\"LESSCHARSET\" value=\"utf-8\" />\r\n    </envs>\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"lc刷题&#10;2024_08_21_13_49_05\" />\r\n    <MESSAGE value=\"Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.\" />\r\n    <MESSAGE value=\"lc刷题\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"lc刷题\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 6c3ae02663e64931eae7db97b438e24900b4291f)
++++ b/.idea/workspace.xml	(date 1724326252650)
+@@ -4,8 +4,14 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="lc刷题">
+-      <change beforePath="$PROJECT_DIR$/src/com/whu/lc6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/lc6.java" afterDir="false" />
++    <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="第6题">
++      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/com/whu/AAA.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/com/whu/lc10.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/com/whu/lc8.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/com/whu/lc9.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/com/whu/lc7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/lc7.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -22,7 +28,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="dev" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -41,8 +47,25 @@
+   </component>
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
++    "Application.lc10.executor": "Run",
++    "Application.lc6 (1).executor": "Run",
++    "Application.lc6 (2).executor": "Run",
++    "Application.lc6 (3).executor": "Run",
++    "Application.lc6 (4).executor": "Debug",
++    "Application.lc6 (5).executor": "Run",
++    "Application.lc6.executor": "Run",
++    "Application.lc7 (1).executor": "Run",
++    "Application.lc7.executor": "Run",
++    "Application.lc8 (1).executor": "Run",
++    "Application.lc8 (2).executor": "Run",
++    "Application.lc8 (3).executor": "Run",
++    "Application.lc8 (4).executor": "Debug",
++    "Application.lc8 (5).executor": "Run",
++    "Application.lc8.executor": "Run",
++    "Application.lc9.executor": "Run",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "dev",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "git-widget-placeholder": "master",
+     "kotlin-language-version-configured": "true",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+@@ -61,11 +84,87 @@
+     ]
+   }
+ }]]></component>
++  <component name="RunManager" selected="Application.lc10">
++    <configuration name="lc10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.whu.lc10" />
++      <module name="LeetCode" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.whu.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="lc8 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.whu.lc8" />
++      <module name="LeetCode" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.whu.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="lc8 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.whu.lc8" />
++      <module name="LeetCode" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.whu.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="lc8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.whu.lc8" />
++      <module name="LeetCode" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.whu.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="lc9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="com.whu.lc9" />
++      <module name="LeetCode" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.whu.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.lc10" />
++        <item itemvalue="Application.lc9" />
++        <item itemvalue="Application.lc8 (3)" />
++        <item itemvalue="Application.lc8 (2)" />
++        <item itemvalue="Application.lc8" />
++      </list>
++    </recent_temporary>
++  </component>
+   <component name="SharedIndexes">
+     <attachedChunks>
+       <set>
+-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.387" />
+-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.387" />
++        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
++        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+       </set>
+     </attachedChunks>
+   </component>
+@@ -84,6 +183,8 @@
+       <workItem from="1724219715162" duration="66000" />
+       <workItem from="1724219822661" duration="1000" />
+       <workItem from="1724219830706" duration="5663000" />
++      <workItem from="1724294587466" duration="10134000" />
++      <workItem from="1724314576128" duration="7093000" />
+     </task>
+     <task id="LOCAL-00001" summary="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.">
+       <option name="closed" value="true" />
+@@ -109,7 +210,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1724226166511</updated>
+     </task>
+-    <option name="localTasksCounter" value="4" />
++    <task id="LOCAL-00004" summary="第6题">
++      <option name="closed" value="true" />
++      <created>1724309514924</created>
++      <option name="number" value="00004" />
++      <option name="presentableId" value="LOCAL-00004" />
++      <option name="project" value="LOCAL" />
++      <updated>1724309514924</updated>
++    </task>
++    <option name="localTasksCounter" value="5" />
+     <servers />
+   </component>
+   <component name="TerminalProjectNonSharedOptionsProvider">
+@@ -135,6 +244,18 @@
+     <MESSAGE value="lc刷题&#10;2024_08_21_13_49_05" />
+     <MESSAGE value="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9." />
+     <MESSAGE value="lc刷题" />
+-    <option name="LAST_COMMIT_MESSAGE" value="lc刷题" />
++    <MESSAGE value="第6题" />
++    <option name="LAST_COMMIT_MESSAGE" value="第6题" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager>
++      <breakpoints>
++        <line-breakpoint enabled="true" type="java-line">
++          <url>file://$PROJECT_DIR$/src/com/whu/lc8.java</url>
++          <line>25</line>
++          <option name="timeStamp" value="5" />
++        </line-breakpoint>
++      </breakpoints>
++    </breakpoint-manager>
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/com/whu/AAA.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/com/whu/AAA.java b/src/com/whu/AAA.java
+new file mode 100644
+--- /dev/null	(date 1724326252618)
++++ b/src/com/whu/AAA.java	(date 1724326252618)
+@@ -0,0 +1,10 @@
++package com.whu;
++
++public class AAA {
++    public static void main(String[] args) {
++        Solution solution = new Solution();
++    }
++
++    private static class Solution {
++    }
++}

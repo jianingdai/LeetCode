@@ -1,4 +1,4 @@
-package com.whu;
+package com.whu.LC11_20;
 
 public class LC14 {
     public static void main(String[] args) {
