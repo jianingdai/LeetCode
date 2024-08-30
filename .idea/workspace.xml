@@ -4,30 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="2024_08_24_18_14_35&#10;lc14">
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/LC15.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/LC16.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/LC17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/LC18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/LC19.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/LC20.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC21.java" afterDir="false" />
+    <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="2024_08_26_20_03_42&#10;lc21">
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_8_21_15_55_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_8_21_15_55__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_8_22_19_30_[Changes]/lc5$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_8_22_19_30_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_8_22_19_30__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_8_22_19_31_[Changes]/lc5$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_8_22_19_31_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_8_22_19_31__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2024_8_21_15_55_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Merge_at_2024_8_21_15_55__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc1$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc2$ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc2$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc3$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc4$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc5$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/com/whu/lc5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/LC14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/lc11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/lc11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/lc12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/lc12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/lc13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/lc13.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,82 +58,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.LC15 (1).executor": "Run",
-    "Application.LC15 (2).executor": "Run",
-    "Application.LC15 (3).executor": "Run",
-    "Application.LC15 (4).executor": "Run",
-    "Application.LC15 (5).executor": "Run",
-    "Application.LC15.executor": "Debug",
-    "Application.LC16.executor": "Debug",
-    "Application.LC21.executor": "Debug",
-    "Application.lc10.executor": "Run",
-    "Application.lc12 (1).executor": "Run",
-    "Application.lc12.executor": "Run",
-    "Application.lc6 (1).executor": "Run",
-    "Application.lc6 (2).executor": "Run",
-    "Application.lc6 (3).executor": "Run",
-    "Application.lc6 (4).executor": "Debug",
-    "Application.lc6 (5).executor": "Run",
-    "Application.lc6.executor": "Run",
-    "Application.lc7 (1).executor": "Run",
-    "Application.lc7.executor": "Run",
-    "Application.lc8 (1).executor": "Run",
-    "Application.lc8 (2).executor": "Run",
-    "Application.lc8 (3).executor": "Run",
-    "Application.lc8 (4).executor": "Debug",
-    "Application.lc8 (5).executor": "Run",
-    "Application.lc8.executor": "Run",
-    "Application.lc9.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.LC15 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC15 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC15 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC15 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC15 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC15.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LC16.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LC21.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.LC22 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC22 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC22 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC22 (4).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC22 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.LC22.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc10.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc12 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc12.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc6 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc6 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc6 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc6 (4).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.lc6 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc6.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc7 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc7.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc8 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc8 (2).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc8 (3).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc8 (4).executor&quot;: &quot;Debug&quot;,
+    &quot;Application.lc8 (5).executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc8.executor&quot;: &quot;Run&quot;,
+    &quot;Application.lc9.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="Application.LC21">
-    <configuration name="LC15 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC15" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC15 (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC15" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.LC22 (4)">
     <configuration name="LC15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.whu.LC11_20.LC15" />
       <module name="LeetCode" />
@@ -153,47 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC11_20.LC16" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.LC11_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC11_20.LC15" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.LC11_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC11_20.LC15" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.LC11_20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC21" />
+    <configuration name="LC22 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC22" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
@@ -205,12 +140,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.lc12" />
+    <configuration name="LC22 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC22" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.whu.LC1_10.*" />
+          <option name="PATTERN" value="com.whu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC22 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC22" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC22 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC22" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC22" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -220,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LC21" />
-        <item itemvalue="Application.LC16" />
-        <item itemvalue="Application.LC15" />
-        <item itemvalue="Application.LC15 (1)" />
-        <item itemvalue="Application.LC15 (5)" />
+        <item itemvalue="Application.LC22 (4)" />
+        <item itemvalue="Application.LC22" />
+        <item itemvalue="Application.LC22 (3)" />
+        <item itemvalue="Application.LC22 (2)" />
+        <item itemvalue="Application.LC22 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +229,12 @@
       <workItem from="1724314576128" duration="7093000" />
       <workItem from="1724477034088" duration="1607000" />
       <workItem from="1724487152266" duration="7426000" />
-      <workItem from="1724655464463" duration="17890000" />
+      <workItem from="1724655464463" duration="17956000" />
+      <workItem from="1724742675270" duration="4419000" />
+      <workItem from="1724761385455" duration="3493000" />
+      <workItem from="1724767914804" duration="6315000" />
+      <workItem from="1724815592970" duration="2390000" />
+      <workItem from="1725018080398" duration="249000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.">
       <option name="closed" value="true" />
@@ -305,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724494500461</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2024_08_26_20_03_42&#10;lc21">
+      <option name="closed" value="true" />
+      <created>1724673833613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1724673833614</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -336,7 +323,8 @@
     <MESSAGE value="lc10" />
     <MESSAGE value="lc10" />
     <MESSAGE value="2024_08_24_18_14_35&#10;lc14" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024_08_24_18_14_35&#10;lc14" />
+    <MESSAGE value="2024_08_26_20_03_42&#10;lc21" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024_08_26_20_03_42&#10;lc21" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
