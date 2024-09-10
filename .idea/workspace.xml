@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="2024_08_30_19_45_26&#10;lc24">
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC26.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC27.java" afterDir="false" />
+    <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="2024_08_30_19_45_26&#10;lc27">
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC28.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC25.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -224,7 +222,9 @@
       <workItem from="1725018080398" duration="4517000" />
       <workItem from="1725374296966" duration="147000" />
       <workItem from="1725608166093" duration="1480000" />
-      <workItem from="1725636986133" duration="625000" />
+      <workItem from="1725636986133" duration="1008000" />
+      <workItem from="1725770409588" duration="1723000" />
+      <workItem from="1725977092988" duration="382000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.">
       <option name="closed" value="true" />
@@ -290,7 +290,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725018334770</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2024_08_30_19_45_26&#10;lc27">
+      <option name="closed" value="true" />
+      <created>1725637984160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1725637984160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -323,7 +331,8 @@
     <MESSAGE value="2024_08_24_18_14_35&#10;lc14" />
     <MESSAGE value="2024_08_26_20_03_42&#10;lc21" />
     <MESSAGE value="2024_08_30_19_45_26&#10;lc24" />
-    <option name="LAST_COMMIT_MESSAGE" value="2024_08_30_19_45_26&#10;lc24" />
+    <MESSAGE value="2024_08_30_19_45_26&#10;lc27" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024_08_30_19_45_26&#10;lc27" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
