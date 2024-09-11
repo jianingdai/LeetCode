@@ -1,6 +1,4 @@
-package com.whu;
-
-import java.net.http.WebSocket;
+package com.whu.LC21_30;
 
 /**
  * Definition for singly-linked list.

@@ -1,6 +1,4 @@
-package com.whu;
-
-import com.whu.LC1_10.lc4;
+package com.whu.LC21_30;
 
 public class LC28 {
     public static void main(String[] args) {

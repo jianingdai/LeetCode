@@ -1,4 +1,4 @@
-package com.whu;
+package com.whu.LC21_30;
 
 public class LC23 {
     public static void main(String[] args) {
