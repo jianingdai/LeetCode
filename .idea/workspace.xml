@@ -5,9 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="2024_09_11_10_58_57&#10;lc30">
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC32.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC35.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC36.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC38.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC39.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC40.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC41.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC42.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC45.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC46.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +44,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="SOFT" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;hello00wolrd&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hello00wolrd/LeetCode.git&quot;,
+    &quot;accountId&quot;: &quot;a1c71cc6-7ff8-4d85-9ab5-94b947f28d3d&quot;
+  }
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="ProjectErrors" />
   </component>
@@ -66,6 +92,9 @@
     "Application.LC30.executor": "Debug",
     "Application.LC32 (1).executor": "Run",
     "Application.LC32.executor": "Debug",
+    "Application.LC38.executor": "Debug",
+    "Application.LC45.executor": "Debug",
+    "Application.LC53.executor": "Run",
     "Application.lc10.executor": "Run",
     "Application.lc12 (1).executor": "Run",
     "Application.lc12.executor": "Run",
@@ -96,8 +125,9 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "terminal",
-    "vue.rearranger.settings.migration": "true"
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.LC32 (2).executor": "Run"
   },
   "keyToStringList": {
     "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
@@ -105,46 +135,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LC32 (1)">
-    <configuration name="LC30 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC30" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC30 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC30" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC21_30.LC30" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.LC21_30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LC45">
     <configuration name="LC30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.whu.LC21_30.LC30" />
       <module name="LeetCode" />
@@ -210,12 +201,89 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC32" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC31_40.LC32" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC31_40.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC31_40.LC38" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC31_40.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC41_50.LC43" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC41_50.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC41_50.LC45" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC41_50.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.whu.LC30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC30" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC31_40.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LC32 (1)" />
-        <item itemvalue="Application.LC32" />
-        <item itemvalue="Application.LC30 (2)" />
-        <item itemvalue="Application.LC30 (1)" />
+        <item itemvalue="Application.LC45" />
+        <item itemvalue="Application.LC43" />
+        <item itemvalue="Application.LC38" />
         <item itemvalue="Application.LC30" />
       </list>
     </recent_temporary>
@@ -223,8 +291,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.20224.419" />
-        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-IU-242.20224.419" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
@@ -259,6 +327,17 @@
       <workItem from="1725770409588" duration="1723000" />
       <workItem from="1725977092988" duration="12674000" />
       <workItem from="1726032063156" duration="3955000" />
+      <workItem from="1727520292987" duration="392000" />
+      <workItem from="1727756691626" duration="2000" />
+      <workItem from="1727762699187" duration="33000" />
+      <workItem from="1727762902374" duration="97000" />
+      <workItem from="1728739785794" duration="455000" />
+      <workItem from="1729681936797" duration="88000" />
+      <workItem from="1730203159580" duration="2581000" />
+      <workItem from="1730261936567" duration="2201000" />
+      <workItem from="1730272621357" duration="6771000" />
+      <workItem from="1730534817731" duration="6626000" />
+      <workItem from="1730618526925" duration="6393000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.">
       <option name="closed" value="true" />
@@ -395,26 +474,38 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC32.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java</url>
           <line>66</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC32.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java</url>
           <line>64</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC32.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java</url>
           <line>51</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC32.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java</url>
           <line>54</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC38.java</url>
+          <line>10</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

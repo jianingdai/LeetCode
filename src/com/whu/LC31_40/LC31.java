@@ -1,8 +1,6 @@
-package com.whu;
+package com.whu.LC31_40;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
 
 public class LC31 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.whu;
+package com.whu.LC31_40;
 
 import java.util.ArrayList;
 import java.util.List;
