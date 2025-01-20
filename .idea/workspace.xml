@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="2024_09_11_10_58_57&#10;lc30">
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC35.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC36.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC38.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC39.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC40.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC41.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC43.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC44.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC45.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC46.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC121_130/LC128.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC281_290/LC283.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC81_90/LC88.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC46.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +43,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/hello00wolrd/LeetCode.git&quot;,
-    &quot;accountId&quot;: &quot;a1c71cc6-7ff8-4d85-9ab5-94b947f28d3d&quot;
+    &quot;accountId&quot;: &quot;c284c09d-2f44-4e04-95a1-1540c9cccd7a&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -72,6 +62,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.LC128 (1).executor": "Debug",
+    "Application.LC128 (2).executor": "Run",
+    "Application.LC128 (3).executor": "Debug",
+    "Application.LC128 (4).executor": "Run",
+    "Application.LC128.executor": "Run",
     "Application.LC15 (1).executor": "Run",
     "Application.LC15 (2).executor": "Run",
     "Application.LC15 (3).executor": "Run",
@@ -86,6 +81,11 @@
     "Application.LC22 (4).executor": "Debug",
     "Application.LC22 (5).executor": "Run",
     "Application.LC22.executor": "Run",
+    "Application.LC283 (1).executor": "Run",
+    "Application.LC283 (2).executor": "Debug",
+    "Application.LC283 (3).executor": "Debug",
+    "Application.LC283 (4).executor": "Run",
+    "Application.LC283.executor": "Debug",
     "Application.LC30 (1).executor": "Run",
     "Application.LC30 (2).executor": "Run",
     "Application.LC30 (3).executor": "Debug",
@@ -135,13 +135,65 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LC45">
-    <configuration name="LC30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC21_30.LC30" />
+  <component name="RunManager" selected="Application.LC283">
+    <configuration name="LC283 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC281_290.LC283" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.whu.LC21_30.*" />
+          <option name="PATTERN" value="com.whu.LC281_290.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC283 (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC281_290.LC283" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC281_290.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC283 (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC281_290.LC283" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC281_290.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC283 (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC281_290.LC283" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC281_290.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.whu.LC281_290.LC283" />
+      <module name="LeetCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whu.LC281_290.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,32 +220,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.whu.LC21_30.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC32 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC32" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC32" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC32" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -227,64 +253,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC38" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC31_40.LC38" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.LC31_40.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC41_50.LC43" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.LC41_50.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LC45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC41_50.LC45" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.LC41_50.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.whu.LC30" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.whu.LC30" />
-      <module name="LeetCode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.whu.LC31_40.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LC45" />
-        <item itemvalue="Application.LC43" />
-        <item itemvalue="Application.LC38" />
-        <item itemvalue="Application.LC30" />
+        <item itemvalue="Application.LC283" />
+        <item itemvalue="Application.LC283 (4)" />
+        <item itemvalue="Application.LC283 (3)" />
+        <item itemvalue="Application.LC283 (2)" />
+        <item itemvalue="Application.LC283 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +312,18 @@
       <workItem from="1730261936567" duration="2201000" />
       <workItem from="1730272621357" duration="6771000" />
       <workItem from="1730534817731" duration="6626000" />
-      <workItem from="1730618526925" duration="6393000" />
+      <workItem from="1730618526925" duration="8139000" />
+      <workItem from="1730882345910" duration="3000" />
+      <workItem from="1730882363501" duration="388000" />
+      <workItem from="1730964295269" duration="664000" />
+      <workItem from="1730965830481" duration="550000" />
+      <workItem from="1731036108389" duration="522000" />
+      <workItem from="1731078686995" duration="3539000" />
+      <workItem from="1731130804395" duration="8554000" />
+      <workItem from="1731153066185" duration="4118000" />
+      <workItem from="1731408198137" duration="78000" />
+      <workItem from="1737358439173" duration="581000" />
+      <workItem from="1737359031106" duration="3533000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.">
       <option name="closed" value="true" />
