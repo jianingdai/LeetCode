@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="2024_09_11_10_58_57&#10;lc30">
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC121_130/LC128.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC281_290/LC283.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC49.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC81_90/LC88.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC41_50/LC46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +317,7 @@
       <workItem from="1731153066185" duration="4118000" />
       <workItem from="1731408198137" duration="78000" />
       <workItem from="1737358439173" duration="581000" />
-      <workItem from="1737359031106" duration="3533000" />
+      <workItem from="1737359031106" duration="3877000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.">
       <option name="closed" value="true" />
@@ -413,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726023544068</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="2024_09_11_10_58_57&#10;lc30">
+      <option name="closed" value="true" />
+      <created>1737363154567</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737363154567</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
