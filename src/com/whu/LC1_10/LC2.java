@@ -1,6 +1,6 @@
 package com.whu.LC1_10;
 
-public class lc2 {
+public class LC2 {
 
     //      Definition for singly-linked list.
 
