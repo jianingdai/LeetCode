@@ -1,6 +1,5 @@
-package com.whu.LC551_LC560;
+package com.whu.LC551_560;
 
-import javax.sql.rowset.FilteredRowSet;
 import java.util.HashMap;
 
 public class LC560 {
