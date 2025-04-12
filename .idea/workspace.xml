@@ -5,23 +5,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="Add new solutions and refactor class names for consistency">
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC111_120/LC118.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC121_130/LC121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC151_160/LC155.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC191_200/LC198.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC211_220/LC215.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC271_280/LC279.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC3301_LC3310/LC3396.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC391_400/LC394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC411_420/LC416.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC51_60/LC55.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC61_70/LC70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC731_740/LC739.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC761_770/LC763.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC131_140/LC136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC131_140/LC139.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC2841_2850/LC2843.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC321_330/LC322.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC3371_3380/LC3375.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC341_350/LC347.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC341_350/LC350.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/LC20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC11_20/LC20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC551_LC560/LC560.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC551_560/LC560.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/LC14.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/LC14.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/LC15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/LC15.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/LC16.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/LC16.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/LC17.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/LC17.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/LC18.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/LC18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/LC19.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/LC19.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/LC20.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/LC20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/lc11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/lc11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/lc12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/lc12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC11_20/lc13.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC11_20/lc13.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/LC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/LC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/LC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/LC2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/LC3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/LC3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/lc10.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/lc10.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/lc4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/lc4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/lc5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/lc5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/lc6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/lc6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/lc7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/lc7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/lc8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/lc8.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC1_10/lc9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/lc9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC21.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC23.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC23.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC24.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC24.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC25.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC25.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC26.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC26.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC27.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC27.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC28.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC28.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC21_30/LC30.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC21_30/LC30.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC31.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC31.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC32.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC33.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC34.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC34.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC35.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC36.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC36.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC37.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC38.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC38.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC31_40/LC40.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC40.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC42.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC42.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC43.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC43.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC44.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC44.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC45.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC45.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC46.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC46.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC48.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC48.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC41_50/LC49.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC49.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC51_60/LC53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC51_60/LC53.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC51_60/LC54.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC51_60/LC54.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC51_60/LC55.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC51_60/LC55.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC51_60/LC56.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC51_60/LC56.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC61_70/LC70.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC61_70/LC70.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC71_80/LC73.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC71_80/LC73.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC71_80/LC74.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC71_80/LC74.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC71_80/LC76.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC71_80/LC76.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC71_80/LC78.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC71_80/LC78.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC71_80/LC79.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC71_80/LC79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC71_80/LC80.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC71_80/LC80.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC81_90/LC88.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC81_90/LC88.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC91_100/LC94.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC91_100/LC94.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/LC91_100/LC98.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC91_100/LC98.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +317,11 @@
       <workItem from="1742886872147" duration="6887000" />
       <workItem from="1742915194110" duration="3081000" />
       <workItem from="1744095038040" duration="154000" />
-      <workItem from="1744095253885" duration="13355000" />
+      <workItem from="1744095253885" duration="13520000" />
+      <workItem from="1744190481308" duration="1193000" />
+      <workItem from="1744264284419" duration="7221000" />
+      <workItem from="1744335495970" duration="3750000" />
+      <workItem from="1744435537396" duration="1283000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.">
       <option name="closed" value="true" />
@@ -379,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742311267863</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Add new solutions and refactor class names for consistency">
+      <option name="closed" value="true" />
+      <created>1744122309714</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1744122309714</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -422,32 +486,32 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC1_10/lc8.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC1_100/LC1_10/lc8.java</url>
           <line>25</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC32.java</url>
           <line>66</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC32.java</url>
           <line>64</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC32.java</url>
           <line>51</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC32.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC32.java</url>
           <line>54</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/whu/LC31_40/LC38.java</url>
+          <url>file://$PROJECT_DIR$/src/com/whu/LC1_100/LC31_40/LC38.java</url>
           <line>10</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
