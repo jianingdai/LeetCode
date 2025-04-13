@@ -1,4 +1,4 @@
-package com.whu.LC3301_LC3310;
+package com.whu.LC3301_3310;
 
 import java.util.HashMap;
 
