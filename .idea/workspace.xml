@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b07cb35-8dd1-44d8-8dda-0f91b81465a6" name="Changes" comment="Add new solutions and refactor class names for consistency">
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC1561_1570/LC1561.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC191_200/LC200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC1921_1930/LC1922.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC41_50/LC50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/whu/LC991_1000/LC994.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC1531_1540/LC1534.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC51_60/LC58.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC61_70/LC67.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC1_100/LC71_80/LC75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC201_210/LC207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC201_210/LC210.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/LC291_300/LC300.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/Temp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/whu/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/whu/LC3301_LC3310/LC3396.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/whu/LC3301_3310/LC3396.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/whu/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,7 +265,13 @@
       <workItem from="1744190481308" duration="1193000" />
       <workItem from="1744264284419" duration="7221000" />
       <workItem from="1744335495970" duration="3750000" />
-      <workItem from="1744435537396" duration="13872000" />
+      <workItem from="1744435537396" duration="13887000" />
+      <workItem from="1744602142039" duration="7660000" />
+      <workItem from="1744626842441" duration="10000" />
+      <workItem from="1744727980441" duration="2013000" />
+      <workItem from="1744769001669" duration="2447000" />
+      <workItem from="1744799743332" duration="7838000" />
+      <workItem from="1745045662853" duration="3440000" />
     </task>
     <task id="LOCAL-00001" summary="Revert &quot;lc刷题&quot;&#10;&#10;This reverts commit 7582ae9e7b1c13b7fb45c5f7cde56ad1060f55f9.">
       <option name="closed" value="true" />
@@ -389,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744439172052</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Add new solutions and refactor class names for consistency">
+      <option name="closed" value="true" />
+      <created>1744536282808</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1744536282808</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
